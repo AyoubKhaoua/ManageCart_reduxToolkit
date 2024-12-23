@@ -1,8 +1,17 @@
-# React + Vite
+# Product Management App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a React-based application for managing a list of products with the ability to filter, add, and remove products from a cart. The application uses Redux for state management, allowing you to track the products in the cart and filter them by category. The products are initially loaded from a JSON file, which can easily be extended with more products or categories.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Display a list of products fetched from a JSON file.
+- Add and remove products from the cart using checkboxes.
+- Filter products by category (e.g., "Electronics", "Clothing").
+- Display the total count and price of products in the cart.
+
+## Technologies Used
+
+- React
+- Redux
+- JSON for product data
+- CSS for styling
